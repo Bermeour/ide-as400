@@ -34,11 +34,11 @@ import java.util.Properties;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import org.tn5250j.Session5250;
-import org.tn5250j.SessionBean;
-import org.tn5250j.SessionConfig;
-import org.tn5250j.SessionPanel;
-import org.tn5250j.interfaces.ConfigureFactory;
+import com.ide.as400.Session5250;
+import com.ide.as400.SessionBean;
+import com.ide.as400.SessionConfig;
+import com.ide.as400.SessionPanel;
+import com.ide.as400.interfaces.ConfigureFactory;
 
 
 public class ExampleEmbeddedMinimalBootstrap {
@@ -48,7 +48,7 @@ public class ExampleEmbeddedMinimalBootstrap {
 		try {
 			System.setProperty("emulator.settingsDirectory", File.createTempFile("tn5250j", "settings").getAbsolutePath());  
 			ConfigureFactory.getInstance();
-			org.tn5250j.tools.LangTool.init();
+			com.ide.as400.tools.LangTool.init();
 			final SessionBean sb = createSessionbean();
 			
 			JFrame frame = new JFrame("TN5250j");
