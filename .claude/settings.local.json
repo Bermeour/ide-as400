@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(mvn compile:*)",
+      "Bash(mvn test-compile:*)",
+      "Bash(mvn exec:java -Dexec.mainClass=\"ExampleEmbeddedMinimalBootstrap\" -Dexec.classpathScope=\"test\")"
+    ]
+  }
+}
