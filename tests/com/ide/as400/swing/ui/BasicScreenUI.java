@@ -15,7 +15,9 @@ import com.ide.as400.framework.tn5250.Screen5250;
 import com.ide.as400.tools.GUIGraphicsUtils;
 
 /**
- * For testing purpose
+ * Clase: BasicScreenUI.java
+ * Descripción: Componente de prueba que dibuja el contenido de la pantalla TN5250 caracter a caracter,
+ * gestionando colores EBCDIC, atributos extendidos, separadores de columna y elementos gráficos GUI.
  */
 class BasicScreen extends BasicSubUI implements ScreenListener {
 

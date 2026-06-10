@@ -1,9 +1,11 @@
+/**
+ * Clase: KbdTypesCodePages.java
+ * Descripción: Enumeración que mapea los tipos de teclado reconocidos por IBM i con sus
+ * correspondientes conjuntos de caracteres, páginas de código EBCDIC y CCSID, cubriendo
+ * todos los idiomas y variantes regionales soportados por el sistema AS/400.
+ */
 package com.ide.as400.framework.tn5250;
 
-/**
- * IBM i 7.1 Information Center  Programmierung  i5/OS globalization  Globalization reference information  Keyboard reference information
- *
- */
 public enum KbdTypesCodePages {
 
 	ALI("Albanian","ALI","697","500","500"),

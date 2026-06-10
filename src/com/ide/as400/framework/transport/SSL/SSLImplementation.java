@@ -1,26 +1,10 @@
-package com.ide.as400.framework.transport.SSL;
-
-/*
- * @author Stephen M. Kennedy
- *
- * Copyright:    Copyright (c) 2001
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2, or (at your option)
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this software; see the file COPYING.  If not, write to
- * the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA 02111-1307 USA
- *
+/**
+ * Clase: SSLImplementation.java
+ * Descripción: Implementación de SSLInterface que crea sockets SSL/TLS seguros para
+ * la conexión con el AS/400, gestionando el almacén de claves (KeyStore) y permitiendo
+ * al usuario aceptar certificados de servidor no firmados por una CA reconocida.
  */
+package com.ide.as400.framework.transport.SSL;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -43,15 +27,6 @@ import com.ide.as400.tools.logging.TN5250jLogFactory;
 import com.ide.as400.tools.logging.TN5250jLogger;
 import com.ide.as400.GlobalConfigure;
 
-/**
- * <p>
- * This class implements the SSLInterface and is used to create SSL socket
- * instances.
- * </p>
- *
- * @author Stephen M. Kennedy
- *
- */
 public class SSLImplementation implements SSLInterface, X509TrustManager {
 
 	SSLContext sslContext = null;

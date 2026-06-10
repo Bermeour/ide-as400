@@ -13,7 +13,9 @@ import com.ide.as400.framework.tn5250.Screen5250;
 import com.ide.as400.framework.tn5250.ScreenOIA;
 
 /**
- * For testing purpose
+ * Clase: BasicOIA.java
+ * Descripción: Componente de prueba que renderiza el Área de Información del Operador (OIA) del terminal
+ * TN5250, mostrando la posición del cursor, el estado de inhibición del teclado y respondiendo a eventos de pantalla.
  */
 public class BasicOIA extends BasicSubUI implements ScreenListener, ScreenOIAListener
 {

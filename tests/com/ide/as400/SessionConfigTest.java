@@ -13,6 +13,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase: SessionConfigTest.java
+ * Descripción: Prueba la gestión de propiedades y eventos de la clase SessionConfig, cubriendo
+ * lectura, escritura, eliminación de propiedades y la notificación correcta a los SessionConfigListener.
+ */
 public class SessionConfigTest {
 
     @BeforeClass

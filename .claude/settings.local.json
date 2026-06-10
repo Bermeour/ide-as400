@@ -40,7 +40,12 @@
       "Bash(sed -i 's/import com\\\\.ide\\\\.as400\\\\.session\\\\.Session5250;\\\\nimport com\\\\.ide\\\\.as400\\\\.gui\\\\.SessionPanel;/import com.ide.as400.*;/' C:/DEV/Proyecto-Ide/as400/src/com/ide/as400/interfaces/SessionsInterface.java)",
       "Bash(find C:/DEV/Proyecto-Ide/as400/src C:/DEV/Proyecto-Ide/as400/tests -name '*.java' -exec sed -i '/^import com\\\\.ide\\\\.as400\\\\.TN5250jConstants;$/d' '{}' +)",
       "Bash(find C:/DEV/Proyecto-Ide/as400/src C:/DEV/Proyecto-Ide/as400/tests -name '*.java' -exec sed -i '/^import com\\\\.ide\\\\.as400\\\\.Session5250;$/d' '{}' +)",
-      "Bash(find C:/DEV/Proyecto-Ide/as400/src C:/DEV/Proyecto-Ide/as400/tests -name '*.java' -exec sed -i '/^import com\\\\.ide\\\\.as400\\\\.SessionPanel;$/d' '/^import com\\\\.ide\\\\.as400\\\\.GlobalConfigure;$/d' '/^import com\\\\.ide\\\\.as400\\\\.SessionConfig;$/d' '/^import com\\\\.ide\\\\.as400\\\\.BootStrapper;$/d' '/^import com\\\\.ide\\\\.as400\\\\.PrinterThread;$/d' '/^import com\\\\.ide\\\\.as400\\\\.Gui5250Frame;$/d' '/^import com\\\\.ide\\\\.as400\\\\.OptionAccess;$/d' '{}' +)"
+      "Bash(find C:/DEV/Proyecto-Ide/as400/src C:/DEV/Proyecto-Ide/as400/tests -name '*.java' -exec sed -i '/^import com\\\\.ide\\\\.as400\\\\.SessionPanel;$/d' '/^import com\\\\.ide\\\\.as400\\\\.GlobalConfigure;$/d' '/^import com\\\\.ide\\\\.as400\\\\.SessionConfig;$/d' '/^import com\\\\.ide\\\\.as400\\\\.BootStrapper;$/d' '/^import com\\\\.ide\\\\.as400\\\\.PrinterThread;$/d' '/^import com\\\\.ide\\\\.as400\\\\.Gui5250Frame;$/d' '/^import com\\\\.ide\\\\.as400\\\\.OptionAccess;$/d' '{}' +)",
+      "Bash(sed -n '10,18p' \"C:/DEV/Proyecto-Ide/as400/src/com/ide/as400/GlobalConfigure.java\")",
+      "Bash(sed -n '9,14p' \"C:/DEV/Proyecto-Ide/as400/src/com/ide/as400/OptionAccess.java\")",
+      "Bash(sed -n '17,24p' \"C:/DEV/Proyecto-Ide/as400/src/com/ide/as400/Session5250.java\")",
+      "Bash(sed -n '27,34p' \"C:/DEV/Proyecto-Ide/as400/src/com/ide/as400/SessionConfig.java\")",
+      "Bash(sed -n '37,44p' \"C:/DEV/Proyecto-Ide/as400/src/com/ide/as400/SessionPanel.java\")"
     ]
   }
 }

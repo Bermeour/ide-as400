@@ -2,6 +2,10 @@ package com.ide.as400.event;
 
 import java.util.EventObject;
 
+/**
+ * Clase: SessionChangeEvent.java
+ * Descripción: Evento que notifica un cambio de estado en una sesión del emulador, transportando un mensaje descriptivo y un código de estado numérico.
+ */
 public class SessionChangeEvent extends EventObject {
 
    private static final long serialVersionUID = 1L;

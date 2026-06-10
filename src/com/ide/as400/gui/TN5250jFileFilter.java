@@ -1,17 +1,7 @@
 /**
- *
- * A convenience implementation of FileFilter that filters out
- * all files except for those type extensions that it knows about.
- *
- * Example - create a new filter that filerts out all files
- * but gif and jpg image files:
- *
- *     JFileChooser chooser = new JFileChooser();
- *     TN5250jFileFilter filter = new TN5250jFileFilter(
- *                   new String{"gif", "jpg"}, "JPEG & GIF Images")
- *     chooser.addChoosableFileFilter(filter);
- *     chooser.showOpenDialog(this);
- *
+ * Clase: TN5250jFileFilter.java
+ * Descripción: Implementación de FileFilter que permite filtrar archivos por una o más extensiones
+ * registradas, mostrando en el selector de archivos solo los tipos de archivo configurados.
  */
 package com.ide.as400.gui;
 

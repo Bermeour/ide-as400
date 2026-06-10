@@ -1,22 +1,7 @@
-/*
- * @(#)WizardPage.java
- * Copyright:    Copyright (c) 2001
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2, or (at your option)
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this software; see the file COPYING.  If not, write to
- * the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA 02111-1307 USA
- *
+/**
+ * Clase: WizardPage.java
+ * Descripción: Página individual de un asistente que incluye un área de contenido personalizable y botones
+ * configurables (Anterior, Siguiente, Finalizar, Cancelar, Ayuda) para guiar al usuario paso a paso.
  */
 package com.ide.as400.gui;
 
@@ -33,9 +18,6 @@ import javax.swing.Box;
 
 import com.ide.as400.tools.LangTool;
 
-/**
- * Class to create and manage a Wizard style framework for you.
- */
 public class WizardPage extends JPanel {
 
    private static final long serialVersionUID = 1L;

@@ -1,29 +1,3 @@
-/**
- * Title: SqlWizard.java
- * Copyright:   Copyright (c) 2001
- * Company:
- * @author  Kenneth J. Pouncey
- * @version 0.5
- *
- * Description:
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2, or (at your option)
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this software; see the file COPYING.  If not, write to
- * the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA 02111-1307 USA
- *
- */
-
 package com.ide.as400.sql;
 
 import java.awt.*;
@@ -37,9 +11,10 @@ import com.ide.as400.tools.GUIGraphicsUtils;
 import com.ide.as400.tools.system.OperatingSystem;
 
 /**
- *
+ * Clase: SqlWizard.java
+ * Descripción: Ventana de construcción y ejecución de consultas SQL sobre el AS/400 que integra
+ * un panel visual de construcción de consultas y una tabla de resultados con soporte de conexión JDBC.
  */
-
 public class SqlWizard extends JFrame {
 
    private static final long serialVersionUID = 1L;

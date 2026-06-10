@@ -8,6 +8,11 @@ import java.util.List;
 
 import org.junit.Test;
 
+/**
+ * Clase: My5250Test.java
+ * Descripción: Prueba la carga y filtrado de nombres de sesión desde argumentos de línea de comandos
+ * y desde propiedades almacenadas, garantizando el correcto manejo de espacios y sesiones inexistentes.
+ */
 public class My5250Test {
 
 	@Test

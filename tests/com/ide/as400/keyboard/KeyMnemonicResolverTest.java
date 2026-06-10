@@ -5,6 +5,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Clase: KeyMnemonicResolverTest.java
+ * Descripción: Prueba la resolución de valores numéricos para mnemónicos de teclado, verificando
+ * que se devuelve cero ante mnemónicos desconocidos y que el método es seguro ante entradas nulas.
+ */
 public class KeyMnemonicResolverTest {
 
   private KeyMnemonicResolver resolver;

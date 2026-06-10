@@ -1,27 +1,8 @@
 /**
- * Title: tn5250J
- * Copyright:   Copyright (c) 2001
- * Company:
- * @author  Kenneth J. Pouncey
- * @version 0.5
- *
- * Description:
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2, or (at your option)
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this software; see the file COPYING.  If not, write to
- * the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA 02111-1307 USA
- *
+ * Clase: WTDSFParser.java
+ * Descripción: Analizador del comando Write To Display Structured Field (WTDSF) del protocolo
+ * TN5250 en modo emulación mejorada, que procesa los campos estructurados para renderizar
+ * ventanas, listas y otros elementos GUI extendidos en la pantalla 5250.
  */
 package com.ide.as400.framework.tn5250;
 
@@ -44,14 +25,6 @@ import com.ide.as400.tools.logging.TN5250jLogFactory;
 import com.ide.as400.tools.logging.TN5250jLogger;
 import com.ide.as400.TN5250jConstants;
 
-/**
- *
- * Write To Display Structured Field:
- *
- * This module will parse the structured field information for enhanced
- * emulation mode.
- *
- */
 public class WTDSFParser {
 
    private Screen5250 screen52;

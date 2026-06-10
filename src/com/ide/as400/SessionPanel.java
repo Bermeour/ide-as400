@@ -1,24 +1,3 @@
-/*
- * @(#)SessionGUI.java
- * Copyright:    Copyright (c) 2001 - 2004
- * @author Kenneth J. Pouncey
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2, or (at your option)
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this software; see the file COPYING.  If not, write to
- * the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA 02111-1307 USA
- *
- */
 package com.ide.as400;
 
 import java.awt.*;
@@ -58,8 +37,8 @@ import static com.ide.as400.SessionConfig.*;
 import static com.ide.as400.keyboard.KeyMnemonic.ENTER;
 
 /**
- * A host GUI session
- * (Hint: old name was SessionGUI)
+ * Clase: SessionPanel.java
+ * Descripción: Panel gráfico principal de una sesión de terminal 5250 que integra el buffer de pantalla, el teclado virtual, el menú contextual y el manejo de teclado y ratón, actuando como interfaz visual completa entre el usuario y la sesión remota.
  */
 public class SessionPanel extends JPanel implements RubberBandCanvasIF, SessionConfigListener, SessionListener {
 

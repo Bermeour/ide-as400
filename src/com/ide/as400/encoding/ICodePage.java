@@ -1,5 +1,9 @@
 package com.ide.as400.encoding;
 
+/**
+ * Clase: ICodePage.java
+ * Descripción: Interfaz que define la conversión bidireccional entre bytes EBCDIC y caracteres Unicode, siendo el contrato base para todas las páginas de código del emulador.
+ */
 public interface ICodePage {
 
 	/**

@@ -1,18 +1,9 @@
+/**
+ * Clase: JSortTable.java
+ * Descripción: Extensión de JTable que agrega capacidad de ordenamiento al hacer clic en los encabezados de
+ * columna, delegando la lógica de comparación al modelo SortTableModel asociado.
+ */
 package com.ide.as400.gui;
-/*
-=====================================================================
-
-  JSortTable.java
-
-  Created by Claude Duguay
-  Copyright (c) 2002
-   This was taken from a Java Pro magazine article
-   http://www.fawcette.com/javapro/codepage.asp?loccode=jp0208
-
-   I have NOT asked for permission to use this.
-
-=====================================================================
-*/
 
 import javax.swing.*;
 import javax.swing.table.JTableHeader;

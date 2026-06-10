@@ -1,18 +1,76 @@
-# TN5250J
-A 5250 terminal emulator for the AS/400 written in Java.
+# Base AS400
 
-Documentation is available at: [tn5250j.github.io](https://tn5250j.github.io/)
+Emulador de terminal TN5250 para sistemas IBM AS/400 (iSeries), desarrollado en Java.
 
-[![Build Status](https://travis-ci.org/tn5250j/tn5250j.svg?branch=travis)](https://travis-ci.org/tn5250j/tn5250j)
+## Descripción
 
-## History
+Base AS400 es una aplicación de escritorio que permite conectarse a sistemas IBM AS/400 a través del protocolo TN5250 (Telnet 5250). Proporciona una interfaz gráfica completa para interactuar con el sistema operativo IBM i, con soporte para múltiples sesiones simultáneas, configuración de pantalla, teclado y codificación de caracteres.
 
-This project was created because there was no terminal emulator for Linux with features like continued edit fields, gui windows, cursor progression fields, etc.
+## Tecnologías
 
-It was then open sourced to give something back to all those hackers and code churners that work so hard to provide the Linux and Open Source communities with quality work and software.
+- **Java 8**
+- **Swing / AWT** — Interfaz gráfica de usuario
+- **Jython** — Motor de scripting para automatización de sesiones
+- **JT400 (IBM Toolbox)** — Librería de conectividad AS/400
+- **SLF4J / Log4j** — Sistema de logging
+- **Maven** — Gestión de dependencias y construcción
 
-The original developer wanted it to work on different operating systems, thus Java giving the “J” at the end.
+## Estructura del proyecto
 
-## Hosting
+```
+src/com/ide/as400/
+├── My5250.java               # Punto de entrada principal
+├── framework/                # Núcleo del emulador TN5250
+│   ├── tn5250/               # Motor de pantalla y protocolo
+│   └── transport/            # Conexión de red y SSL
+├── gui/                      # Componentes de interfaz gráfica
+├── connectdialog/            # Diálogos de conexión y configuración
+├── session/                  # Gestión de sesiones
+├── keyboard/                 # Manejo de teclado y atajos
+├── encoding/                 # Páginas de código EBCDIC/Unicode
+├── sessionsettings/          # Paneles de configuración de sesión
+├── spoolfile/                # Gestión de colas de impresión
+├── sql/                      # Transferencia de datos vía SQL
+├── scripting/                # Motor de scripts Jython
+├── mailtools/                # Envío de correo electrónico
+└── tools/                    # Utilidades generales
+```
 
-The project was previous hosted at [sourceforge.net](https://sourceforge.net/projects/tn5250j/). But since 2016 has been migrated to GitHub.
+## Compilar y ejecutar
+
+### Requisitos
+- Java 8 o superior
+- Maven 3.x
+
+### Compilar
+```bash
+mvn compile
+```
+
+### Ejecutar pruebas
+```bash
+mvn test
+```
+
+### Generar JAR ejecutable
+```bash
+mvn package
+```
+
+### Ejecutar
+```bash
+java -jar target/tn5250j-0.7.6.4-jar-with-dependencies.jar
+```
+
+## Ejecución embebida (modo programático)
+
+```java
+System.setProperty("emulator.settingsDirectory", "/ruta/configuracion/");
+ConfigureFactory.getInstance();
+LangTool.init();
+
+SessionBean sb = new SessionBean(session);
+sb.setHostName("ip-del-as400");
+sb.setCodePage("Cp273");
+sb.connect();
+```

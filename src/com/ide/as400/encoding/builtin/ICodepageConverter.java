@@ -3,9 +3,8 @@ package com.ide.as400.encoding.builtin;
 import com.ide.as400.encoding.ICodePage;
 
 /**
- * Interface for classes which do the translation from
- * EBCDIC bytes to Unicode characters and vice versa.
- *
+ * Clase: ICodepageConverter.java
+ * Descripción: Interfaz extendida de ICodePage para conversores de página de código integrados, añadiendo métodos para obtener el nombre identificador, la descripción y la inicialización del conversor.
  */
 public interface ICodepageConverter extends ICodePage {
 

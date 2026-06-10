@@ -1,18 +1,9 @@
+/**
+ * Clase: SortArrowIcon.java
+ * Descripción: Icono que dibuja una flecha de ordenamiento ascendente, descendente o ninguna, utilizado en
+ * los encabezados de columna de tablas ordenables para indicar visualmente el sentido del orden activo.
+ */
 package com.ide.as400.gui;
-/*
-=====================================================================
-
-  SortArrowIcon.java
-
-  Created by Claude Duguay
-  Copyright (c) 2002
-   This was taken from a Java Pro magazine article
-   http://www.fawcette.com/javapro/codepage.asp?loccode=jp0208
-
-   I have NOT asked for permission to use this.
-
-=====================================================================
-*/
 
 import java.awt.*;
 import javax.swing.*;

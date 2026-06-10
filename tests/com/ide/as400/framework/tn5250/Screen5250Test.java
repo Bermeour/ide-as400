@@ -4,6 +4,11 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * Clase: Screen5250Test.java
+ * Descripción: Prueba la inicialización, dimensiones, cálculo de posiciones y manejo de listeners
+ * de la clase Screen5250, verificando el comportamiento correcto de la pantalla TN5250 de 24x80.
+ */
 public class Screen5250Test {
 
     private Screen5250 screen;

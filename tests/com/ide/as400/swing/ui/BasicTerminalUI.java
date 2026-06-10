@@ -34,7 +34,9 @@ import com.ide.as400.framework.tn5250.Screen5250;
 import com.ide.as400.swing.JTerminal;
 
 /**
- * For testing purpose
+ * Clase: BasicTerminalUI.java
+ * Descripción: Controlador de interfaz de usuario de prueba para el componente JTerminal, encargado
+ * de instalar y desinstalar la pantalla, el OIA, el layout, los listeners y la política de fuente del terminal TN5250.
  */
 public class BasicTerminalUI {
    boolean graphicsDebugMode = false;
