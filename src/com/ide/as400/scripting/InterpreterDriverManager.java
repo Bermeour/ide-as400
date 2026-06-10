@@ -1,4 +1,8 @@
-// InterpreterDriverManager.java
+/**
+ * Clase: InterpreterDriverManager.java
+ * Descripción: Gestor estático de controladores de intérpretes de scripting que registra los
+ * drivers disponibles y despacha la ejecución de scripts según la extensión o lenguaje indicado.
+ */
 package com.ide.as400.scripting;
 
 import java.util.HashMap;
@@ -7,12 +11,7 @@ import java.util.Map;
 import com.ide.as400.tools.logging.TN5250jLogFactory;
 import com.ide.as400.tools.logging.TN5250jLogger;
 import com.ide.as400.SessionPanel;
-/**
- * Class for managing interpreter drivers.
- * This manager is responsible for keeping track of loaded
- * driver. Interpreter drivers are required to register instance
- * of themselves with this manager when they are loaded.
- */
+
 public class InterpreterDriverManager {
 
 	private static final transient TN5250jLogger LOG = TN5250jLogFactory.getLogger(InterpreterDriverManager.class);

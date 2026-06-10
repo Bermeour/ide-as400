@@ -1,17 +1,9 @@
+/**
+ * Clase: SortTableModel.java
+ * Descripción: Interfaz que extiende TableModel para indicar si una columna es ordenable y ejecutar el
+ * ordenamiento de sus datos de forma ascendente o descendente.
+ */
 package com.ide.as400.gui;
-/*
-=====================================================================
-
-  SortTableModel.java
-
-  Created by Claude Duguay
-  Copyright (c) 2002
-   This was taken from a Java Pro magazine article
-   http://www.fawcette.com/javapro/codepage.asp?loccode=jp0208
-
-   I have NOT asked for permission to use this.
-=====================================================================
-*/
 
 import javax.swing.table.TableModel;
 

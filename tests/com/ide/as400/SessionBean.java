@@ -1,29 +1,8 @@
-/*
-*
-* <p>Title: SessionBean</p>
-* <p>Description: TN5250 Session as a bean with auto signon features</p>
-* <p>Copyright: Copyright (c) 2000 - 2004</p>
-* <p>
-*
-* @author Luc Gorrens
-* @version 1.0
-*
-* This program is free software; you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation; either version 2, or (at your option)
-* any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-* GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License
-* along with this software; see the file COPYING.  If not, write to
-* the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
-* Boston, MA 02111-1307 USA
-* </p>
-*/
+/**
+ * Clase: SessionBean.java
+ * Descripción: Implementación de SessionPanel como bean reutilizable que encapsula una sesión TN5250
+ * con soporte para configuración de conexión, inicio de sesión automático y ajuste dinámico del tamaño de fuente.
+ */
 
 package com.ide.as400;
 

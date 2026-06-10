@@ -1,18 +1,9 @@
+/**
+ * Clase: SortHeaderRenderer.java
+ * Descripción: Renderizador de celdas de encabezado de tabla que muestra la flecha de ordenamiento
+ * correspondiente (ascendente, descendente o ninguna) según la columna actualmente ordenada en un JSortTable.
+ */
 package com.ide.as400.gui;
-/*
-=====================================================================
-
-  SortHeaderRenderer.java
-
-  Created by Claude Duguay
-  Copyright (c) 2002
-   This was taken from a Java Pro magazine article
-   http://www.fawcette.com/javapro/codepage.asp?loccode=jp0208
-
-   I have NOT asked for permission to use this.
-
-=====================================================================
-*/
 
 import java.awt.*;
 import javax.swing.*;

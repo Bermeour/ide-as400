@@ -1,14 +1,8 @@
-
 /**
- * JPythonInterpreterDriver.java
- *
- *
- * Created: Wed Dec 23 16:03:41 1998
- *
- * @author
- * @version
+ * Clase: JPythonInterpreterDriver.java
+ * Descripción: Controlador de scripting que integra el intérprete JPython/Jython para ejecutar
+ * scripts Python sobre sesiones 5250, registrándose automáticamente en el InterpreterDriverManager.
  */
-
 package com.ide.as400.scripting;
 
 import java.io.File;

@@ -1,26 +1,9 @@
 package com.ide.as400.spoolfile;
 
 /**
- *
- * This is taken from Sun's demo ExampleFileFiler.java
- *
- * A convenience implementation of FileFilter that filters out
- * all files except for those type extensions that it knows about.
- *
- * Extensions are of the type ".foo", which is typically found on
- * Windows and Unix boxes, but not on Macinthosh. Case is ignored.
- *
- * Example - create a new filter that filerts out all files
- * but gif and jpg image files:
- *
- *     JFileChooser chooser = new JFileChooser();
- *     XTFRFileFilter filter = new XTFRFileFilter(
- *                   new String{"gif", "jpg"}, "JPEG & GIF Images")
- *     chooser.addChoosableFileFilter(filter);
- *     chooser.showOpenDialog(this);
- *
- * @version 1.10 05/17/01
- * @author Jeff Dinkins
+ * Clase: ExportFileFilter.java
+ * Descripción: Filtro de archivos para el selector de ficheros de exportación de spool,
+ * que restringe la selección a archivos con extensiones específicas como PDF o TXT.
  */
 import java.io.File;
 import javax.swing.filechooser.*;

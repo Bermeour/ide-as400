@@ -9,7 +9,9 @@ import com.ide.as400.Session5250;
 import com.ide.as400.keyboard.KeyboardHandler;
 
 /**
- * For testing purpose
+ * Clase: JTerminal.java
+ * Descripción: Componente Swing de prueba que representa un terminal TN5250, delegando el procesamiento
+ * de eventos de teclado al KeyboardHandler e instalando la interfaz de usuario básica del terminal.
  */
 public class JTerminal extends JComponent {
 

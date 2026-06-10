@@ -1,3 +1,7 @@
+/**
+ * Clase: ExternalProgramConfig.java
+ * Descripción: Singleton que gestiona la configuración de programas externos del emulador, permitiendo cargar, guardar y editar mediante un diálogo las propiedades de comandos externos para plataformas Windows y Unix.
+ */
 package com.ide.as400;
 
 import java.awt.Component;

@@ -1,24 +1,7 @@
-/*
- * Title: tn5250J
- * Copyright:   Copyright (c) 2016
- *
- * Description:
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2, or (at your option)
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this software; see the file COPYING.  If not, write to
- * the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA 02111-1307 USA
- *
+/**
+ * Clase: SessionsTableModel.java
+ * Descripción: Modelo de tabla que expone las sesiones AS/400 almacenadas en propiedades, con columnas de
+ * nombre, host y sesión predeterminada, y soporte para ordenamiento por columna.
  */
 package com.ide.as400.connectdialog;
 
@@ -29,10 +12,6 @@ import javax.swing.table.AbstractTableModel;
 import java.util.*;
 import com.ide.as400.TN5250jConstants;
 
-/**
- * Table model to show all available sessions,
- * with 'name', 'host' and 'default' column
- */
 class SessionsTableModel extends AbstractTableModel implements SortTableModel {
 
   private static final long serialVersionUID = 1L;

@@ -1,3 +1,8 @@
+/**
+ * Clase: DecimalField.java
+ * Descripción: Campo de texto Swing especializado que valida y formatea la entrada del usuario
+ * para aceptar únicamente valores numéricos decimales según un formato especificado.
+ */
 package com.ide.as400.tools;
 
 import javax.swing.*;

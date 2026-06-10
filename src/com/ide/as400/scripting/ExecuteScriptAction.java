@@ -1,13 +1,8 @@
 /**
- * ExecuteScriptAction.java
- *
- *
- * Created: Wed Dec 23 15:22:01 1998
- *
- * @author
- * @version
+ * Clase: ExecuteScriptAction.java
+ * Descripción: Acción Swing que ejecuta un archivo de script sobre la sesión 5250 activa
+ * al ser invocada, utilizando el gestor de intérpretes disponible.
  */
-
 package com.ide.as400.scripting;
 
 import javax.swing.AbstractAction;

@@ -2,6 +2,10 @@ package com.ide.as400.event;
 
 import java.util.EventObject;
 
+/**
+ * Clase: FTPStatusEvent.java
+ * Descripción: Evento que transporta información de estado de una operación FTP, incluyendo el mensaje, el tipo de mensaje, la longitud del archivo y el registro actual transferido.
+ */
 public class FTPStatusEvent extends EventObject {
 
    private static final long serialVersionUID = 1L;

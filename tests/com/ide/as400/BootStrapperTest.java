@@ -8,6 +8,11 @@ import com.ide.as400.event.BootListener;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase: BootStrapperTest.java
+ * Descripción: Prueba el registro de BootListener en la clase BootStrapper, verificando que se pueden
+ * añadir múltiples listeners sin errores y documentando el comportamiento ante entradas nulas.
+ */
 public class BootStrapperTest {
 
     // --- Listeners ---
