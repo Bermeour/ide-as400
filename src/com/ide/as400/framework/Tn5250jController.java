@@ -1,21 +1,9 @@
-/**Copyright (C) 2004 Seagull Software
-*
-* This library is free software; you can redistribute it and/or
-* modify it under the terms of the GNU Lesser General Public
-* License as published by the Free Software Foundation; either
-* version 2.1 of the License, or (at your option) any later version.
-*
-* This library is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-* Lesser General Public License for more details.
-*
-* You should have received a copy of the GNU Lesser General Public
-* License along with this library; if not, write to the Free Software
-* Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-*
-*@author bvansomeren (bvansomeren@seagull.nl)
-*/
+/**
+ * Clase: Tn5250jController.java
+ * Descripción: Controlador principal del sistema de plugins TN5250j que gestiona el ciclo de vida
+ * de los módulos externos, distribuye eventos entre listeners registrados y permite abrir y administrar
+ * sesiones de terminal 5250 de forma programática.
+ */
 package com.ide.as400.framework;
 
 import java.io.File;

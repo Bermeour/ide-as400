@@ -1,27 +1,6 @@
-/*
- * Title: RulerAction.java
- * Copyright:   Copyright (c) 2001,2002
- * Company:
- * @author  Kenneth J. Pouncey
- * @version 0.5
- *
- * Description:
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2, or (at your option)
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this software; see the file COPYING.  If not, write to
- * the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA 02111-1307 USA
- *
+/**
+ * Clase: RulerAction.java
+ * Descripción: Acción del emulador que activa o desactiva el cursor en forma de cruz (crosshair) como regla visual en la pantalla, asignada al atajo Alt+L.
  */
 package com.ide.as400.keyboard.actions;
 

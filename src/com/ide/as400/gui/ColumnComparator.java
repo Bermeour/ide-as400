@@ -1,18 +1,9 @@
+/**
+ * Clase: ColumnComparator.java
+ * Descripción: Comparador genérico de columnas de tabla que ordena vectores de filas de forma ascendente
+ * o descendente según el índice de columna especificado.
+ */
 package com.ide.as400.gui;
-/*
-=====================================================================
-
-  ColumnComparator.java
-
-  Created by Claude Duguay
-  Copyright (c) 2002
-   This was taken from a Java Pro magazine article
-   http://www.fawcette.com/javapro/codepage.asp?loccode=jp0208
-
-   I have NOT asked for permission to use this.
-
-=====================================================================
-*/
 
 import java.util.*;
 

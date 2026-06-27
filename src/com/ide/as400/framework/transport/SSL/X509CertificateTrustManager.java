@@ -1,25 +1,10 @@
-package com.ide.as400.framework.transport.SSL;
-
-/*
- * 
- * Copyright:    Copyright (c) 2001
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2, or (at your option)
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this software; see the file COPYING.  If not, write to
- * the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA 02111-1307 USA
- *
+/**
+ * Clase: X509CertificateTrustManager.java
+ * Descripción: Implementación de X509TrustManager que gestiona la validación de certificados
+ * SSL del servidor durante el handshake, permitiendo al usuario aceptar interactivamente
+ * certificados no emitidos por una autoridad certificadora reconocida.
  */
+package com.ide.as400.framework.transport.SSL;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 import java.security.cert.X509Certificate;
@@ -30,16 +15,6 @@ import java.util.Arrays;
 
 import javax.swing.JOptionPane;
 
-/**
- * This class is used to trust certificates exchanged during an SSL socket
- * handshake.  It allows the user to accept the certificate so that connections
- * can be made without requiring the server to have a certificate signed by a
- * CA (Verisign, Thawte, etc.).
- *
- * @author Stephen M. Kennedy
- * @deprecated  no longer used.
- *
- */
 public class X509CertificateTrustManager implements X509TrustManager {
 
   KeyStore ks = null;

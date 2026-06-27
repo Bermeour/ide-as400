@@ -1,3 +1,8 @@
+/**
+ * Clase: FormattedDocument.java
+ * Descripción: Documento de texto Swing que valida cada inserción y eliminación de caracteres
+ * para asegurar que el contenido cumpla siempre con el formato especificado.
+ */
 package com.ide.as400.tools;
 
 import javax.swing.text.*;

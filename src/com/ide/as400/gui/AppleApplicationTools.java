@@ -1,3 +1,8 @@
+/**
+ * Clase: AppleApplicationTools.java
+ * Descripción: Utilitario que permite establecer el ícono del Dock en entornos macOS utilizando la API
+ * privada de Apple (com.apple.eawt.Application) mediante reflexión.
+ */
 package com.ide.as400.gui;
 
 import com.ide.as400.tools.logging.TN5250jLogFactory;

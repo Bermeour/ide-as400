@@ -1,3 +1,9 @@
+/**
+ * Clase: DataStreamProducer.java
+ * Descripción: Hilo productor que lee continuamente el flujo de bytes entrante desde el servidor
+ * AS/400 a través del socket, ensambla los segmentos TN5250 completos y los encola para su
+ * procesamiento por el intérprete de pantalla.
+ */
 package com.ide.as400.framework.tn5250;
 
 import com.ide.as400.encoding.ICodePage;

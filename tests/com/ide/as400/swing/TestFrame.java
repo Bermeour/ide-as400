@@ -8,7 +8,9 @@ import com.ide.as400.SessionBean;
 import com.ide.as400.interfaces.ConfigureFactory;
 
 /**
- * For testing purpose
+ * Clase: TestFrame.java
+ * Descripción: Marco Swing de prueba que conecta un SessionBean a un servidor AS/400 de desarrollo
+ * y muestra el terminal TN5250 dentro de un JFrame para verificación visual de la interfaz.
  */
 public class TestFrame extends JFrame {
 

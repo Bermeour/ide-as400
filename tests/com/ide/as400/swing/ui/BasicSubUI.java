@@ -8,7 +8,9 @@ import java.awt.Point;
 import java.awt.Rectangle;
 
 /**
- * For testing purpose
+ * Clase: BasicSubUI.java
+ * Descripción: Clase base abstracta de prueba para sub-componentes de la interfaz del terminal TN5250,
+ * proporcionando soporte de posicionamiento, fuente, pintura y notificación de regiones sucias para repintado.
  */
 public abstract class BasicSubUI
 {

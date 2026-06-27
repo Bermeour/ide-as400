@@ -1,3 +1,7 @@
+/**
+ * Clase: BootStrapper.java
+ * Descripción: Hilo servidor que escucha en el puerto 3036 para detectar otras instancias del emulador en ejecución y recibir opciones de nueva sesión desde procesos externos, notificando a los oyentes registrados mediante eventos de arranque.
+ */
 package com.ide.as400;
 
 import java.net.*;

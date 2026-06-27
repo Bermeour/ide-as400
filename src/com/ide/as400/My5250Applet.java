@@ -1,3 +1,7 @@
+/**
+ * Clase: My5250Applet.java
+ * Descripción: Applet Java que embebe el emulador de terminal 5250 en un navegador web, inicializando la sesión de conexión con el servidor AS/400 a partir de los parámetros HTML del applet.
+ */
 package com.ide.as400;
 
 import java.awt.Dimension;

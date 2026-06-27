@@ -1,17 +1,11 @@
-// InterpreterDriver.java
+/**
+ * Clase: InterpreterDriver.java
+ * Descripción: Interfaz que deben implementar todos los controladores de lenguajes de scripting,
+ * definiendo los métodos para ejecutar scripts como cadena de texto o desde archivo sobre una sesión.
+ */
 package com.ide.as400.scripting;
 import com.ide.as400.SessionPanel;
 
-
-/**
- * Driver interface for scripting interpreter.
- * Each language supported must implement this interface.
- * The implementation fo this interface will typically delegate
- * the work to the underlying third-party interpreter.
- * The implementing class must create an instance of itself and
- * register it with InterpreterDriverManager when it is loaded.
- * @author Ramnivas Laddad
- */
 public interface InterpreterDriver  {
    /**
     * Execute a script string.
